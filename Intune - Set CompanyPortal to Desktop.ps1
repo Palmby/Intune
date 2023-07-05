@@ -1,5 +1,5 @@
 $TargetFile =  "C:\Windows\explorer.exe"
-$ShortcutFile = "C:\users\public\Desktop"
+$ShortcutFile = "C:\users\public\Desktop\Company Portal.lnk"
 $WScriptShell = New-Object -ComObject WScript.Shell
 $Shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
 $Shortcut.Arguments="shell:AppsFolder\Microsoft.CompanyPortal_8wekyb3d8bbwe!App"
